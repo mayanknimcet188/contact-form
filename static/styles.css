@@ -1,17 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background:rgb(30,30,40); }
+body { background:rgb(242, 233, 216); }
 form { max-width:420px; margin:50px auto; }
 
 .feedback-input {
-  color:white;
+  color:black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #CC6666;
+  border:2px solid rgb(247, 169, 74);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -29,7 +29,7 @@ textarea {
 }
 .alert {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(89, 89, 110);
+    background-color: rgb(52, 168, 64);
     text-align: center;
     margin: 0 auto;
     padding: 10px;
@@ -41,14 +41,14 @@ textarea {
     float:right;
     border:none;
     border-radius: 20%;
-    background: darkgray;
+    background: transparent;
     cursor: pointer;
 }
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#CC6666;
+  background:rgb(247, 169, 74);
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -60,4 +60,4 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:rgb(52, 168, 64); }
