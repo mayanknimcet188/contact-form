@@ -2,11 +2,12 @@
 {% block title %}Contact Us{% endblock %}
 
 {% block content %}
-<form>      
-    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-    <input name="email" type="text" class="feedback-input" placeholder="Email" />
-    <input name="subject" type="text" class="feedback-input" placeholder="Subject" />
-    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+<form method="POST" action="/">
+    {{ form.hidden_tag() }}
+    {{ form.name(class='feedback-input',placeholder='Name') }}
+    {{ form.email(class='feedback-input',placeholder='Email') }}
+    {{ form.subject(class='feedback-input',placeholder='Subject') }}
+    {{ form.query(class='feedback-input',placeholder='Query') }}         
     <input type="submit" value="SUBMIT"/>
 </form>
 {% endblock %}

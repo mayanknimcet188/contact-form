@@ -27,6 +27,18 @@ textarea {
   line-height: 150%;
   resize:vertical;
 }
+.alert {
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 96%;
+}
+
+.close {
+    
+}
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
