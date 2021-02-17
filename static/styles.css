@@ -28,7 +28,8 @@ textarea {
   resize:vertical;
 }
 .alert {
-    background-color: green;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(89, 89, 110);
     text-align: center;
     margin: 0 auto;
     padding: 10px;
@@ -37,7 +38,11 @@ textarea {
 }
 
 .close {
-    
+    float:right;
+    border:none;
+    border-radius: 20%;
+    background: darkgray;
+    cursor: pointer;
 }
 
 [type="submit"] {
